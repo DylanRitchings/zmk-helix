@@ -35,16 +35,18 @@
         compatible = "alps,ec11";
         steps = <144>;
         status = "disabled";
-        a-gpios = <&gpio0 7 GPIO_PULL_UP>;
-        b-gpios = <&gpio0 8 GPIO_PULL_UP>;
+
+        a-gpios = <&pro_micro 7 GPIO_PULL_UP>;
+        b-gpios = <&pro_micro 8 GPIO_PULL_UP>;
     };
 
     right_encoder: right_encoder {
         compatible = "alps,ec11";
         steps = <144>;
         status = "disabled";
-        a-gpios = <&gpio0 16 GPIO_PULL_UP>;
-        b-gpios = <&gpio0 14 GPIO_PULL_UP>;
+
+        a-gpios = <&pro_micro 16 GPIO_PULL_UP>;
+        b-gpios = <&pro_micro 14 GPIO_PULL_UP>;
     };
 
     sensors: sensors {
@@ -54,7 +56,7 @@
     };
 };
 
-&i2c0 {
+&pro_micro_i2c {
     status = "okay";
 
     oled: ssd1306@3c {
