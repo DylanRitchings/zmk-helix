@@ -60,4 +60,31 @@ As such, those are in use within the default layer at this time.*/
                      >;
               };
        };
+      key_overrides {
+        compatible = "zmk,key-overrides";
+
+        ctrl_h_to_left {
+          bindings = <&kp LEFT>;
+          modifiers = <(MOD_LCTL)>;
+          keycode = <H>;
+        };
+
+        ctrl_j_to_down {
+          bindings = <&kp DOWN>;
+          modifiers = <(MOD_LCTL)>;
+          keycode = <J>;
+        };
+
+        ctrl_k_to_up {
+          bindings = <&kp UP>;
+          modifiers = <(MOD_LCTL)>;
+          keycode = <K>;
+        };
+
+        ctrl_l_to_right {
+          bindings = <&kp RIGHT>;
+          modifiers = <(MOD_LCTL)>;
+          keycode = <L>;
+        };
+      };
 };
