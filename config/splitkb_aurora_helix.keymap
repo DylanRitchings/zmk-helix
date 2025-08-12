@@ -45,11 +45,11 @@ As such, those are in use within the default layer at this time.*/
               };
               gaming_layer {
         bindings = <
-         &trans &trans &trans      &trans &trans &trans                     &trans &trans &trans &trans &trans &trans         
-         &trans &trans &trans      &trans &trans &trans                     &trans &trans &trans &trans &trans &trans         
-         &trans &trans &trans      &trans &trans &trans                     &trans &trans &trans &trans &trans &trans         
-         &trans &trans &trans      &trans &trans &trans &trans       &trans &trans &trans &trans &trans &trans &trans         
-         &trans &trans &to DEFAULT &trans &trans &trans &trans       &trans &trans &trans &trans &trans &trans &trans         
+         &trans &trans &trans      &trans &trans &trans                     &trans &trans &trans &trans &trans   &trans         
+         &trans &trans &trans      &trans &trans &trans                     &trans &trans &trans &trans &trans   &trans         
+         &trans &kp A  &kp S       &kp D  &kp F  &trans                     &trans &kp J  &kp K  &kp L  &kp SEMI &trans         
+         &trans &trans &trans      &trans &trans &trans &trans       &trans &trans &trans &trans &trans &trans   &trans         
+         &trans &trans &to DEFAULT &trans &trans &trans &trans       &trans &trans &trans &trans &trans &trans   &trans         
 
                      >;
               };
