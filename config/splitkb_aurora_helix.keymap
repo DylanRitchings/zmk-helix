@@ -13,7 +13,6 @@
 
 #define DEFAULT 0
 #define LOWER 1
-#define SHIFT_LOWER 2
 #define RAISE 2
 
 
@@ -31,7 +30,6 @@
 
                      >;
               };
-
               lower_layer {
                      bindings = <
         &bt BT_CLR   &kp F1 &kp F2 &kp F3 &kp F4 &kp F5                    &kp F6   &kp F7   &kp F8  &kp F9    &kp F10  &kp F11                     
